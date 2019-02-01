@@ -44,7 +44,7 @@ public class SongActivity extends AppCompatActivity {
             case "dont":
                 file = getFile("dont_stop.txt");
                 break;
-            case "bicyle":
+            case "bicycle":
                 file = getFile("bicycle.txt");
                 break;
             case "friend":
@@ -57,7 +57,7 @@ public class SongActivity extends AppCompatActivity {
                 file = getFile("show.txt");
                 break;
         }
-        /*if(string.equals("bohemian")){
+        /*if(string.equals("bohemian")){https://github.com/AbnerLop/Queen.git
             file = getFile("bohemian.txt");
         } */
         textView.setText(file);

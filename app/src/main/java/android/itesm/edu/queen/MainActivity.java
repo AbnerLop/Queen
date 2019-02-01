@@ -48,15 +48,19 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bicycle:
                 file = "bicycle";
+                goSong(file);
                 break;
             case R.id.friend:
                 file = "friend";
+                goSong(file);
                 break;
             case R.id.littleThing:
                 file = "clThing";
+                goSong(file);
                 break;
             case R.id.show:
                 file = "show";
+                goSong(file);
                 break;
             case R.id.random:
                 Intent intent = new Intent(this, RandomActivity.class);
